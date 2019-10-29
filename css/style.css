@@ -20,14 +20,68 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  
+  position: relative;
 }
 
 .quotes-container {}
+
 .features-container {}
+
+.opaque-overlay
+    {position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0,0,0,0.5)
+    
+    }
+
+/* block dividers*/
+
+    .block-divider{
+    
+    width: 75px;
+    height: 5px;
+    border: 0;
+   
+
+    }
+    
+    .block-divider--orange
+    
+    {
+        background-color: #e89e17; 
+    }
+    
+    .block-divider--short{
+        width: 35px
+    }
     /*jumbotron*/
+    
+    .jumbotron{
+    background-color: transparent;    
+    }
+    
     .jumbotron-header{
         color: white;
         font-weight: bold;
         margin-bottom: 30px;
     }
-}
+    .jumbotron .lead {
+    margin: 25px;
+    color: #b9acaf;
+        
+    }
+    
+    .jumbotron small {
+        font-size: 60%;
+        font-style: italic;
+        color: d0d0d0;
+    }
+    
+    /*buttons*/
+    /*ctn call to action*/
+    .btn-cta{}
+
