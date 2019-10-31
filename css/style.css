@@ -24,10 +24,6 @@ body {
     position: relative;
 }
 
-.quotes-container {}
-
-.features-container {}
-
 .opaque-overlay {
     position: absolute;
     top: 0;
@@ -37,20 +33,22 @@ body {
     background-color: rgba(0, 0, 0, 0.5)
 }
 
-/* block dividers*/
+/*navbar*/
 
-.block-divider {
-    width: 75px;
-    height: 5px;
+.navalert-container{
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding-left: 0;
+    padding-right: 0;
+    z-index: 1;
+}
+
+.navbar {
+    margin-bottom: 0;
     border: 0;
-}
-
-.block-divider--orange {
-    background-color: #e89e17;
-}
-
-.block-divider--short {
-    width: 35px
+    width: 100%;
+    background-color: rgba(0,0,0,.25);
 }
 
 /*jumbotron*/
@@ -76,6 +74,22 @@ body {
     color: d0d0d0;
 }
 
+/* block dividers*/
+
+.block-divider {
+    width: 75px;
+    height: 5px;
+    border: 0;
+}
+
+.block-divider--orange {
+    background-color: #e89e17;
+}
+
+.block-divider--short {
+    width: 35px
+}
+
 /*buttons*/
 
 /*ctn call to action*/
@@ -99,3 +113,7 @@ body {
     background-color: #df4929;
     border-color: #df4929;
 }
+
+.quotes-container {}
+
+.features-container {}
