@@ -4,9 +4,23 @@ body {
 
 }
 
-.alert-container {}
+.alert-container .col-12{
+    padding-left: 0;
+    padding-right: 0;
+    
+}
 
-
+.site-wide-alert {
+    color: #544600;
+    background-color: #efbe23;
+    border-color: #efbe23;
+    padding: 5px 15px;
+    border-radius: 0;
+    margin-bottom:0;
+    border:1px solid transparent;
+    
+    
+}
 
 .callout-container {
     height: 100vh;
@@ -23,6 +37,10 @@ body {
 
     position: relative;
 }
+
+
+    
+
 
 .opaque-overlay {
     position: absolute;
