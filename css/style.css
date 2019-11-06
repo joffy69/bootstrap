@@ -60,6 +60,7 @@ body {
     padding-left: 0;
     padding-right: 0;
     z-index: 1;
+   
 }
 
 .navbar {
@@ -74,7 +75,7 @@ body {
 
     
 }
-.navbar-brand {
+.navbar .navbar-brand{
     
     font-weight: bold;
 }
@@ -90,14 +91,14 @@ body {
     background-color: transparent;
 }
 
-.jumbotron-header {
+.jumbotron h1{
     color: white;
     font-weight: bold;
     margin-bottom: 30px;
 }
 
 .jumbotron .lead {
-    margin: 25px;
+    margin: 25px 0;
     color: #b9acaf;
 }
 
@@ -113,6 +114,7 @@ body {
     width: 75px;
     height: 5px;
     border: 0;
+    background-color: #444;
 }
 
 .block-divider--orange {
@@ -127,7 +129,7 @@ body {
 
 /*ctn call to action*/
 
-.btn-cta {
+.btn--cta {
     font-weight: bold;
     border-radius: 23px;
     width: 160px;
@@ -145,6 +147,7 @@ body {
 .btn--red:active:focus {
     background-color: #df4929;
     border-color: #df4929;
+    color: white;
 }
 
 .quotes-container {}
