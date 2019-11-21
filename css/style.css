@@ -4,6 +4,12 @@ body {
 
 }
 
+.container-wrapper{}
+
+.container-wrapper--red{
+    background-color: #f05f40;
+}
+
 .alert-container .col-12{
     padding-left: 0;
     padding-right: 0;
@@ -49,6 +55,12 @@ body {
     height: 100%;
     width: 100%;
     background-color: rgba(0, 0, 0, 0.5)
+}
+/*content containers*/
+
+.content-container {
+    padding-bottom: 75px;
+    padding-top: 75px;
 }
 
 /*navbar*/
@@ -124,7 +136,9 @@ body {
 .block-divider--short {
     width: 35px
 }
-
+.block-divider--white {
+    background-color: white;
+}
 /*buttons*/
 
 /*ctn call to action*/
@@ -153,3 +167,40 @@ body {
 .quotes-container {}
 
 .features-container {}
+
+.feature {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.feature i {
+    margin-bottom: 20px;
+    font-size: 45px;
+    line-height: 45px;
+}
+
+.feature .btn {
+    background-color: white;
+    border-color: white;
+    border-radius: 15px;
+    min-width: 100px;
+    font-weight: bold;
+    margin-top: 10px;
+    color: #f05f40;
+}
+/*page headers*/
+
+.page-header {
+    margin-top: 0;
+    margin-bottom: 0;
+    border-bottom:0;
+    text-align: center;
+}
+
+.page-header h2 {
+    margin-top: 0;
+}
+
+.quotes .page-header {
+    margin-bottom: 25px;
+}
