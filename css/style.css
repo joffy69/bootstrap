@@ -4,12 +4,6 @@ body {
 
 }
 
-.container-wrapper{}
-
-.container-wrapper--red{
-    background-color: #f05f40;
-}
-
 .alert-container .col-12{
     padding-left: 0;
     padding-right: 0;
@@ -21,10 +15,9 @@ body {
     background-color: #efbe23;
     border-color: #efbe23;
     padding: 5px 15px;
-    border-radius: 0;
     margin-bottom:0;
     border:1px solid transparent;
-    
+    border-radius: 0;
     
 }
 
@@ -45,8 +38,6 @@ body {
 }
 
 
-    
-
 
 .opaque-overlay {
     position: absolute;
@@ -61,6 +52,10 @@ body {
 .content-container {
     padding-bottom: 75px;
     padding-top: 75px;
+}
+
+.container-wrapper--red{
+    background-color: #f05f40;
 }
 
 /*navbar*/
@@ -117,7 +112,7 @@ body {
 .jumbotron small {
     font-size: 60%;
     font-style: italic;
-    color: d0d0d0;
+    color: #d0d0d0;
 }
 
 /* block dividers*/
